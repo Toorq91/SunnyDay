@@ -20,7 +20,7 @@
 
         public void Draw()
         {
-            var isMoving = _isMoving ? "|,|,|(o.O)" : ",/,/,/";
+            var isMoving = _isMoving ? "|,|,|" : ",/,/,/";
 
             Console.SetCursorPosition(_col, _row);
             Console.WriteLine(isMoving);

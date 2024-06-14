@@ -23,9 +23,9 @@ internal class Program
         var cloud2 = new Cloud(50, 4, true);
         var cloud3 = new Cloud(70, 3, false);
 
-        var grass1 = new Grass(90, 14, true);
-        var grass2 = new Grass(93, 13, false);
-        var grass3 = new Grass(96, 14, true);
+        var grass1 = new Grass(12, 21, true);
+        var grass2 = new Grass(16, 20, false);
+        var grass3 = new Grass(17, 22, true);
 
 
         while (true)
@@ -48,7 +48,7 @@ internal class Program
             stickManC.Draw();
             frisbee.Draw();
 
-            Thread.Sleep(300);
+            Thread.Sleep(100);
             grass1.GrassInTheWind();
             grass2.GrassInTheWind();
             grass3.GrassInTheWind();
